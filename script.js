@@ -42,7 +42,9 @@ function verificarClima() {
                 .then(data => {
                     if (data.current_weather) {
                         let temperatura = data.current_weather.temperature;
-                        document.getElementById('temperatura').textContent = `Temperatura atual: ${temperatura}°C`;
+                        document.getElementById('temperatura').innerHTML = "Temperatura:";
+                        document.getElementById('temperatura').innerHTML += "<br>";
+                        document.getElementById('temperatura').innerHTML += `${temperatura}°C`;
                         document.getElementById('resultado').style.display = 'block';
                     } else {
                         document.getElementById('erro').textContent = 'Não foi possível obter a temperatura atual.';

@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(141, 193, 206);
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+
+}
+
+header {
+    background-color:  white;
+    border-radius: 10px;
+}
+
+section {
+    background-color:  white;
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+section label {
+    background-color: blue;
+}

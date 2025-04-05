@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <header>
         <h1>Verificador de Clima</h1>
-        <label for="Informe o nome da cidade"></label>
-        <input type="text" id="cidade">
+    </header>
+    <section>
+        <p>Informe o nome da cidade</p>
+        <input type="text" id="cidade" placeholder="Cidade">
         <button onclick="verificarClima()">verificar</button>
 
         <div id="resultado">
-            <h2>Temperatura: </h2>
-            <p id="temperatura"></p>
+            <h2 id="temperatura"></h2>
         </div>
-    </div>
-    <div id="erro"></div>
-    
+        <div id="erro"></div>
+    </section>
+    <footer>
+        @Agles_Henchen
+    </footer>
 
+    
     <script src="script.js"></script>
 </body>
 </html>
