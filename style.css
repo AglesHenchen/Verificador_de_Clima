@@ -3,21 +3,58 @@ body {
     align-items: center;
     text-align: center;
     justify-items: center;
-
+    font-family: 'Segoe UI';
 }
 
 header {
-    background-color:  white;
-    border-radius: 10px;
+    color: white;
 }
 
-section {
-    background-color:  white;
+main {
+    background-color: white;
     border-radius: 10px;
-    width: 50%;
+    width: 20%;
     height: 100%;
+    padding: 2%;
 }
 
-section label {
-    background-color: blue;
+@media (max-width: 1024px) {
+    main {
+        width: 30%;
+        padding: 2%;
+    }
 }
+
+@media (max-width: 600px) {
+    main {
+        width: 50%;
+        padding: 2%;
+    }
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+    font-size: 16px;
+    
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#resultado {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    color: white;
+    font-weight: bolder;
+}
+

@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Verificador de Clima</h1>
     </header>
-    <section>
-        <p>Informe o nome da cidade</p>
-        <input type="text" id="cidade" placeholder="Cidade">
-        <button onclick="verificarClima()">verificar</button>
+    <main>
+        <div id="secao">
+            <input type="text" id="pais" placeholder="País">
+            <input type="text" id="estado" placeholder="Estado">
+            <input type="text" id="cidade" placeholder="Cidade">
+            <button onclick="verificarClima()">verificar</button>
+        </div>
 
         <div id="resultado">
             <h2 id="temperatura"></h2>
         </div>
-        <div id="erro"></div>
-    </section>
-    <footer>
-        @Agles_Henchen
-    </footer>
 
-    
+        <div id="erro"></div>
+    </main>
+
     <script src="script.js"></script>
 </body>
+
 </html>
