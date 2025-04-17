@@ -1,7 +1,7 @@
 # 🌤️ Verificador de Clima
 Projeto simples em HTML, CSS e JavaScript que permite ao usuário verificar a temperatura atual de uma cidade informada. Ele consome APIs públicas para obter as coordenadas geográficas e a condição climática do local.
 
-<a href="https://agleshenchen.github.io/Site_Api_Clima/" target="_blank">Clique aqui para verificar o site</a>
+[Clique Aqui]([https://open-meteo.com/](https://agleshenchen.github.io/Site_Api_Clima/)) para verificar o site
 
 ## Funcionalidades
 - 🔍 Busca por clima atual a partir de **país, estado e cidade**.
@@ -11,12 +11,10 @@ Projeto simples em HTML, CSS e JavaScript que permite ao usuário verificar a te
   - ⛅️ Ameno (21°C - 29°C)
   - ☀️ Quente (≥ 30°C)
 
-
 ## Tecnologias Utilizadas
 - HTML5
 - CSS3
 - JavaScript
-
 
 ## APIs
 - [Open-Meteo API](https://open-meteo.com/)
