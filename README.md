@@ -1,7 +1,7 @@
 # 🌤️ Verificador de Clima
 Projeto simples em HTML, CSS e JavaScript que permite ao usuário verificar a temperatura atual de uma cidade informada. Ele consome APIs públicas para obter as coordenadas geográficas e a condição climática do local.
 
-[Clique Aqui](https://agleshenchen.github.io/Site_Api_Clima/) para verificar o site
+[Clique Aqui](https://siteverificadordeclima.vercel.app/) para verificar o site
 
 ## Funcionalidades
 - 🔍 Busca por clima atual a partir de **país, estado e cidade**.
